@@ -121,5 +121,7 @@ https://learn.microsoft.com/en-us/azure/developer/jenkins/configure-on-linux-vm
 
 In this module, you created Azure resources in a resource group. If you won't need these resources later, delete the resource group from the Azure portal or run the following command in Azure Cloud Shell:
 
+```bash
 az group delete --name jenkins-get-started-rg --yes
+```
 This command might take a minute to run.
